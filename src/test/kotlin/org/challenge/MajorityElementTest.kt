@@ -12,7 +12,7 @@ class MajorityElementTest {
     fun test1(){
         val nums = intArrayOf(3,2,3)
         val result = target.majorityElement(nums)
-        assertEquals(2,result)
+        assertEquals(3,result)
     }
 
     @Test
